@@ -4,6 +4,20 @@ class Contact extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
+
+  }
+
+  handleChange(event) {
+    const {name, value} = event.target;
+    this.setState({[name]: value})
+  }
+
+  handleSubmit(event) {
+      event.preventDefault();
+      console.log(this.state)
   }
 
   render() {
@@ -31,16 +45,21 @@ class Contact extends React.Component {
             <input
               type="text"
               placeholder="email address"
+              name="email"
               className="input-field"
+              value={this.state.value}
+              onChange={this.handleChange}
             ></input>
               <textarea
-                name=""
+                name="comment"
                 id=""
                 cols="30"
                 rows="10"
                 placeholder="comment"
-              ></textarea>
-              <button className="contact-btn">Send</button>
+                value={this.state.value}
+                onChange={this.handleChange}
+              />
+              <button className="contact-btn" onClick={this.handleSubmit}>Send</button>
             </div>
           </div>
         </div>

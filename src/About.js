@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="section">
       <div className="small-div">
-        <i class="fas fa-building fa-10x orange"></i>
+        <i className="fas fa-building fa-10x orange"></i>
       </div>
       <div className="big-div">
           <h3>About the Company</h3>

@@ -4,7 +4,7 @@ function Mission() {
   return (
     <div className="section">
       <div className="small-div">
-        <i class="fas fa-university fa-10x orange"></i>
+        <i className="fas fa-university fa-10x orange"></i>
       </div>
       <div className="big-div">
           <h3>Our Mission</h3>
