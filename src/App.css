@@ -1,4 +1,4 @@
-.root > div {
+.body > div {
   width: 100%;
   min-height: 30vh;
   display: flex;
@@ -9,4 +9,21 @@
 .header {
   background-color: #f4511e;
   color: #ffffff;
+  flex-direction: column;
+}
+
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+.small-div {
+  width: 200px;
+}
+
+.big-div {
+  width: 800px;
+}
+
+.section {
+  flex-direction: row;
 }
