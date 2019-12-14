@@ -36,3 +36,42 @@
 .orange {
   color: #f4511e; 
 }
+
+.div-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.contact-container {
+  flex-flow: column;
+  padding-top: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.contact-form > div {
+  width: 500px;
+  max-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px;
+}
+
+.input-field {
+  height: 40px;
+  margin: 15px 0;
+}
+
+.contact-btn {
+  margin-top: 15px;
+  height: 40px;
+  color: white;
+  border: 0;
+  background-color: #f4511e;
+}

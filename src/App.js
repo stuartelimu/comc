@@ -4,7 +4,7 @@ import Header from './Header';
 import About from './About';
 import Values from './Values';
 import Mission from './Mission';
-
+import Contact from './Contact';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <About />
       <Values />
       <Mission />
-      <div>5</div>
+      <Contact />
     </div>
   );
 }
