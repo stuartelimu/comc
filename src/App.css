@@ -26,6 +26,11 @@
 
 .section {
   flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.section > div {
+  padding: 30px;
 }
 
 .orange {

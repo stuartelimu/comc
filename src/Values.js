@@ -4,7 +4,7 @@ function Values() {
   return (
     <div className="section bg-grey">
       <div className="small-div">
-        <i class="fas fa-building fa-10x orange"></i>
+        <i class="fas fa-globe-africa fa-10x orange"></i>
       </div>
       <div className="big-div">
           <h3>Our Values</h3>
